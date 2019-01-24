@@ -1,0 +1,82 @@
+.Header {
+  --padding-top-bottom: var(--header-padding, 5px);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--z-index-menu, 1000);
+  height: var(--header-height, 43);
+  background: #000;
+  border-bottom: 40px, solid, black;
+}
+
+.Container {
+  max-width: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.Logo {
+  height: 35px;
+  margin-left: 10px;
+}
+
+.Nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 65%;
+}
+
+.NavLink {
+  display: inline-block;
+  padding: var(--header-padding, 5px) 10px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--color-light-gray, #4f4f4f);
+  border-top: 3px solid transparent;
+  border-bottom: 5px solid transparent;
+  transition: all 0.25s linear;
+  overflow-x: hidden;
+}
+
+.NavLink_active,
+.NavLink:hover {
+  color: white;
+  border-bottom: 5px solid var(--color-blue);
+}
+
+.LoginLink {
+  padding: var(--header-padding, 5px) 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--color-light-gray, #4f4f4f);
+  border-left: 1px solid var(--color-light-gray, #4f4f4f);
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+}
+
+.LoginLink:hover {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 700px) {
+  .Nav {
+    display: none;
+  }
+  .LoginLink {
+    display: none;
+  }
+  .Logo {
+    margin-top: 4px;
+  }
+}

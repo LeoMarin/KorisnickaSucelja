@@ -1,0 +1,106 @@
+[
+    {
+        "group": "A",
+        "team1": { 
+            "name":"Afreeca Freecs",
+            "tricode": "AF",
+            "logo": "../teams/afreeca.png",
+            "score": "4W-2L"
+        },
+        "team2": { 
+            "name": "G2 Esports",
+            "tricode": "G2",
+            "logo": "../teams/g2.png",
+            "score": "4W-3L"
+        },
+        "team3": { 
+            "name": "Flash Wolves",
+            "tricode": "FW",
+            "logo": "../teams/flashwolves.png",
+            "score": "3W-4L"
+        },
+        "team4": { 
+            "name": "Phong Vu Buffalo",
+            "tricode": "PVB",
+            "logo": "../teams/buffalo.png",
+            "score": "2W-4L"
+        }
+    },
+    {
+        "group": "B",
+        "team1": { 
+            "name":"Royal Never Give Up",
+            "tricode": "RNG",
+            "logo": "../teams/rng.png",
+            "score": "5W-2L"
+        },                
+        "team2": { 
+            "name": "Cloud9",
+            "tricode": "C9",
+            "logo": "../teams/cloud9.png",
+            "score": "4W-3L"
+        },  
+        "team3": { 
+            "name": "Vitality",
+            "tricode": "VIT",
+            "logo": "../teams/vitality.png",
+            "score": "3W-3L"
+        },        
+        "team4": { 
+            "name": "Gen.G Esports",
+            "tricode": "GEN",
+            "logo": "../teams/geng.png",
+            "score": "1W-5L"  
+        }
+    },
+    {
+        "group": "C",
+        "team1": { "name":"kt Rolster",
+            "tricode": "KT",
+            "logo": "../teams/kt.png",
+            "score": "5W-1L"
+        },        
+        "team2": { 
+            "name": "Edward Gaming",
+            "tricode": "EDG",
+            "logo": "../teams/edward.png",
+            "score": "4W-2L"
+        },
+        "team3": { "name": "Team Liquid",
+            "tricode": "TL",
+            "logo": "../teams/liquid.png",
+            "score": "3W-3L"
+        },
+        "team4": { "name": "MAD Team",
+            "tricode": "MAD",
+            "logo": "../teams/mad.png",
+            "score": "0W-6L" 
+        }  
+    },
+    {   
+        "group": "D",
+        "team1": { "name":"Fnatic",
+          "tricode": "FNC",
+          "logo": "../teams/fnatic.png",
+          "score": "6W-1L"
+        },        
+        "team2": { 
+            "name": "Invictus Gaming",
+            "tricode": "IG",
+            "logo": "../teams/ig.png",
+            "score": "5W-2L"
+        },        
+        "team3": { 
+            "name": "100 Thieves",
+            "tricode": "100",
+            "logo": "../teams/thieves.png",
+            "score": "2W-4L"
+        },        
+        "team4": { 
+            "name": "G-Rex",
+            "tricode": "GRX",
+            "logo": "../teams/grex.png",
+            "score": "0W-6L"
+        }   
+    }
+]

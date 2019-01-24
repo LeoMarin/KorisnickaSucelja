@@ -1,0 +1,86 @@
+[{
+    "quaters1":{
+        "team1": "Cloud9",
+        "tricode1": "C9",
+        "logo1": "../teams/cloud9.png",
+        "score1": "3",
+        "class1": "win",
+        "team2": "Afreeca Freecs",
+        "tricode2": "AF",
+        "logo2": "../teams/afreeca.png",
+        "score2": "0",
+        "class2": "loss"
+    },
+    "quaters2":{
+        "team1": "Fnatic",
+        "tricode1": "FNC",
+        "logo1": "../teams/fnatic.png",
+        "score1": "3",
+        "class1": "win",
+        "team2": "Edward Gaming",
+        "tricode2": "EDG",
+        "logo2": "../teams/edward.png",
+        "score2": "1",
+        "class2": "loss"
+    },
+    "quaters3":{
+        "team1": "Royal Never Give Up",
+        "tricode1": "RNG",
+        "logo1": "../teams/rng.png",
+        "score1": "2",
+        "class1": "loss",
+        "team2": "G2 Esports",
+        "tricode2": "G2",
+        "logo2": "../teams/g2.png",
+        "score2": "3",
+        "class2": "win"
+    },
+    "quaters4":{
+        "team1": "kt Rolster",
+        "tricode1": "KT",
+        "logo1": "../teams/kt.png",
+        "score1": "2",
+        "class1": "loss",
+        "team2": "Invictus Gaming",
+        "tricode2": "IG",
+        "logo2": "../teams/ig.png",
+        "score2": "3",
+        "class2": "win"
+    },
+    "semis1":{
+        "team1": "Fnatic",
+        "tricode1": "FNC",
+        "logo1": "../teams/fnatic.png",
+        "score1": "3",
+        "class1": "win",
+        "team2": "Cloud9",
+        "tricode2": "C9",
+        "logo2": "../teams/cloud9.png",
+        "score2": "0",
+        "class2": "loss"
+    },
+    "semis2":{
+        "team1": "Invictus Gaming",
+        "tricode1": "IG",
+        "logo1": "../teams/ig.png",
+        "score1": "3",
+        "class1": "win",
+        "team2": "G2 Esports",
+        "tricode2": "G2",
+        "logo2": "../teams/g2.png",
+        "score2": "0",
+        "class2": "loss"
+    },
+    "finals":{
+        "team1": "Fnatic",
+        "tricode1": "FNC",
+        "logo1": "../teams/fnatic.png",
+        "score1": "0",
+        "class1": "notPlayed",
+        "team2": "Invictus Gamng",
+        "tricode2": "IG",
+        "logo2": "../teams/ig.png",
+        "score2": "0",
+        "class2": "notPlayed"
+    }
+}]

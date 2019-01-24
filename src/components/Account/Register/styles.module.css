@@ -1,0 +1,13 @@
+.register-form {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.register-link {
+    color: white;
+}
+
+.wrong {
+    background: red;
+    border-color: red;
+}

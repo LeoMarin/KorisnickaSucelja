@@ -1,0 +1,105 @@
+.logo {
+    margin-top: 7px;
+    height: 65px;
+    width: 65px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.date {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 20px;
+    padding-left: 2%;
+    border-bottom: solid 1px var(--color-light-gray);
+}
+
+.time {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.minutes {
+    font-weight: bold;
+    color: white;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px var(--color-light-gray);
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.sch-item {    
+    margin-bottom: 50px;
+}
+
+.first {
+    margin-left: 4%;
+    display: flex;
+}
+
+.second {
+    color: white;
+    display: flex;
+    width: 90%;
+    justify-content: space-around
+}
+
+.second > div {   
+    line-height: 80px;
+}
+
+.vs {
+    text-align: center;
+    font-weight: bold;
+    color: var(--color-light-gray);
+    width: 5%;
+}
+
+.teamLeft {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    width: 47.5%;
+    text-align: right;
+}
+.teamRight {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    width: 47.5%;
+}
+
+.span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .date {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .full-name {
+        display: none; 
+    }
+
+}
+
+@media only screen and (min-width: 700px) {
+    .tricode {
+        display: none;
+    }
+}

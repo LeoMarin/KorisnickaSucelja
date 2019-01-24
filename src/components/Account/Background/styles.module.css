@@ -1,0 +1,22 @@
+.Background {
+    z-index: -100;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url("static/background-login.png");
+    background-position: center;
+    background-size:cover;
+}
+
+.background-overlay {
+    z-index: -99;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: 0.55;
+}

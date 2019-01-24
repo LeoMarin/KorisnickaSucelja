@@ -1,0 +1,292 @@
+a{
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.inactive {
+    color: white;
+}
+
+.active {
+    color: var(--color-blue);
+}
+
+.stage {
+    color: var(--color-light-gray);
+    font-weight: bold;
+}
+
+.nav {
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid var(--color-light-gray);
+    padding: 20px;
+}
+
+.inactive:hover{
+    color: var(--color-blue);
+    transition: all 0.1s linear;
+}
+
+/*
+  //////////////////////////
+    GROUPS
+  //////////////////////////
+*/
+
+.groups {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.group {
+    width: 45%;
+    margin-bottom: 30px;
+}
+
+.group-name {
+    margin-top: 20px;
+    padding-left: 2%;
+    padding-bottom: 7px;    
+    border-bottom: solid 1px var(--color-light-gray);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.team{
+    display: flex;
+    font-weight: bold;
+}
+
+.logo {    
+    margin-top: 7px;
+    height: 65px;
+    width: 65px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.position {
+    margin-left: 5%;
+    line-height: 80px;
+    font-family: Rockwell;
+    color: white;
+    font-size: 40px;
+    margin-right: 5%;
+}
+
+.team-stats {
+    line-height: 20px;
+    margin-left: 5%;
+
+}
+
+.score {
+    color: var(--color-light-gray);
+}
+
+.name, .tricodeGrp {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/*
+  //////////////////////////
+    KNOCKOUTS
+  //////////////////////////
+*/
+
+.round-names {
+    display: flex;
+    color: white;
+    width: 95%;
+    justify-content: space-around;
+    margin: auto;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.round-names > div {
+    width: 30%;
+    text-align: center;
+}
+
+.knockouts{
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.knockouts > div {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+/*
+.quater{
+    background: yellow;
+}
+.semi{
+    background: red;
+}
+.finals {
+    background: blue;
+}*/
+
+.bracket {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/*
+.bracket-helper{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}*/
+
+.win, .loss, .not-played{    
+    font-size: 20px;
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin: auto;
+    line-height: 80px;
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+
+.win {
+    border-left: 8px solid var(--color-blue);
+}
+
+.loss {
+    border-left: 8px solid var(--color-light-gray);
+    color: var(--color-light-gray)
+}
+
+.top-team {
+    border-bottom: 2px solid var(--color-light-gray);
+}
+
+.loss > .logo {
+    opacity: .4;
+}
+
+.lines-quater {
+    position: absolute;
+    right: 0;
+    width: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: calc(75% - 3px);
+}
+
+.lines-quater > div {
+    width: 100%;
+    height: 33%;
+    border-bottom: 2px solid var(--color-light-gray);
+    border-top: 2px solid var(--color-light-gray);
+    border-right: 2px solid var(--color-light-gray);
+}
+
+.lines-semi{
+    position: absolute;
+    width: 100%;
+    height: calc(50% + 2px);
+    border-bottom: 2px solid var(--color-light-gray);
+    border-top: 2px solid var(--color-light-gray);
+    border-right: 2px solid var(--color-light-gray);
+}
+
+.lines-finals {
+    position: absolute;
+    width: 5%;
+    border-top: 2.5px solid var(--color-light-gray);
+
+}
+
+.team-name, .tricode {
+    width: 60%;
+}
+.bracket-score {
+    margin-right: 5px;
+}
+
+.win > .bracket-score{
+    
+    color: var(--color-blue);
+}
+
+.headder{
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .nav {
+        width: 100%;
+    }
+    .group {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1175px) {
+    .tricode{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1175px) {
+    .team-name{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 930px) {
+    .tricodeGrp{
+        display: none;
+    }
+}
+@media only screen and (max-width: 930px) {
+    .name{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    /*.bracket .logo {        
+        height: 45px;
+        width: 45px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    .win, .loss, .not-played {
+        line-height: 60px;
+    }*/
+    .main{
+        width: 800px;
+    }
+    .knav {
+        width: 800px;
+    }
+    .headder {
+        display: block;
+        height: 43px;
+        width: 800px;
+        position: absolute;
+        background: black;
+        top: 0;
+    }
+
+}

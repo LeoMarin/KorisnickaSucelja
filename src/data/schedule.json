@@ -1,0 +1,236 @@
+[
+    {
+        "date": "FINALS - Saturday, 19 January",
+        "matches": [{
+            "time": "09",
+            "team1": "Fnatic",
+            "logo1": "../teams/fnatic.png",
+            "team2": "Invictus Gaming",
+            "logo2": "../teams/ig.png",
+            "tricode1": "FNC",
+            "tricode2": "IG"
+        }]
+    },
+    {
+        "date": "SEMIFINALS - Sunday, 13 January",
+        "matches": [{
+            "time": "10",
+            "team1": "Cloud9",
+            "logo1": "../teams/cloud9.png",
+            "team2": "Fnatic",
+            "logo2": "../teams/fnatic.png",
+            "tricode1": "C9",
+            "tricode2": "FNC"
+        }]
+    },
+    {
+        "date": "SEMIFINALS - Saturday, 12 January",
+        "matches": [{
+            "time": "10",
+            "team1": "G2 Esports",
+            "logo1": "../teams/g2.png",
+            "team2": "Invictus Gaming",
+            "logo2": "../teams/ig.png",
+            "tricode1": "G2",
+            "tricode2": "IG"
+        }]
+    },
+    {
+        "date": "QUATERFINALS - Sunday, 6 January",
+        "matches": [{
+            "time": "08",
+            "team1": "Cloud9",
+            "logo1": "../teams/cloud9.png",
+            "team2": "Afreeca Freecs",
+            "logo2": "../teams/afreeca.png",
+            "tricode1": "C9",
+            "tricode2": "AF"
+        },
+        {
+            "time": "12",
+            "team1": "Fnatic",
+            "logo1": "../teams/fnatic.png",
+            "team2": "Edward Gaming",
+            "logo2": "../teams/edward.png",
+            "tricode1": "FNC",
+            "tricode2": "EDG"
+        }]
+    },
+    {
+        "date": "QUATERFINALS - Saturday, 5 January",
+        "matches": [{
+            "time": "08",
+            "team1": "kt Rolster",
+            "logo1": "../teams/kt.png",
+            "team2": "Invictus Gaming",
+            "logo2": "../teams/ig.png",
+            "tricode1": "KT",
+            "tricode2": "IG"
+        },
+        {
+            "time": "12",
+            "team1": "Royal Never Give Up",
+            "logo1": "../teams/rng.png",
+            "team2": "G2 Esports",
+            "logo2": "../teams/g2.png",
+            "tricode1": "RNG",
+            "tricode2": "G2"
+        }]
+    },
+    {
+        "date": "TEAM STAGE - Wednesday, 2 January",
+        "matches": [{
+            "time": "10",
+            "team1": "Fnatic",
+            "logo1": "../teams/fnatic.png",
+            "team2": "100 Thieves",
+            "logo2": "../teams/thieves.png",
+            "tricode1": "FNC",
+            "tricode2": "100"
+        },
+        {
+            "time": "11",
+            "team1": "Invictus Gaming",
+            "logo1": "../teams/ig.png",
+            "team2": "G-Rex",
+            "logo2": "../teams/grex.png",
+            "tricode1": "IG",
+            "tricode2": "GRX"
+        },
+        {
+            "time": "12",
+            "team1": "Fnatic",
+            "logo1": "../teams/fnatic.png",
+            "team2": "G-Rex",
+            "logo2": "../teams/grex.png",
+            "tricode1": "FNC",
+            "tricode2": "GRX"
+        },
+        {
+            "time": "13",
+            "team1": "100 Thieves",
+            "logo1": "../teams/thieves.png",
+            "team2": "Invictus Gaming",
+            "logo2": "../teams/ig.png",
+            "tricode1": "100",
+            "tricode2": "IG"
+        }]
+    },
+    {
+        "date": "TEAM STAGE - Tuesday, 1 January",
+        "matches": [{
+            "time": "10",
+            "team1": "Team Liquid",
+            "logo1": "../teams/liquid.png",
+            "team2": "kt Rolster",
+            "logo2": "../teams/kt.png",
+            "tricode1": "TL",
+            "tricode2": "KT"
+        },
+        {
+            "time": "11",
+            "team1": "Edward Gaming",
+            "logo1": "../teams/edward.png",
+            "team2": "MAD Team",
+            "logo2": "../teams/mad.png",
+            "tricode1": "EDG",
+            "tricode2": "MAD"
+        },
+        {
+            "time": "12",
+            "team1": "Team Liquid",
+            "logo1": "../teams/liquid.png",
+            "team2": "MAD Team",
+            "logo2": "../teams/mad.png",
+            "tricode1": "TL",
+            "tricode2": "MAD"
+        },
+        {
+            "time": "13",
+            "team1": "Edward Gaming",
+            "logo1": "../teams/edward.png",
+            "team2": "kt Rolster",
+            "logo2": "../teams/kt.png",
+            "tricode1": "EDG",
+            "tricode2": "KT"
+        }]
+    },
+    {
+        "date": "TEAM STAGE - Monday, 31 December",
+        "matches": [{
+            "time": "10",
+            "team1": "Flash Wolves",
+            "logo1": "../teams/flashwolves.png",
+            "team2": "Afreeca Freecs",
+            "logo2": "../teams/afreeca.png",
+            "tricode1": "FW",
+            "tricode2": "AF"
+        },
+        {
+            "time": "11",
+            "team1": "Phong Vu Buffalo",
+            "logo1": "../teams/buffalo.png",
+            "team2": "G2 Esports",
+            "logo2": "../teams/g2.png",
+            "tricode1": "PVB",
+            "tricode2": "G2"
+        },
+        {
+            "time": "12",
+            "team1": "Flash Wolves",
+            "logo1": "../teams/flashwolves.png",
+            "team2": "G2 Esports",
+            "logo2": "../teams/g2.png",
+            "tricode1": "FW",
+            "tricode2": "G2"
+        },
+        {
+            "time": "13",
+            "team1": "Phong Vu Buffalo",
+            "logo1": "../teams/buffalo.png",
+            "team2": "Afreeca Freecs",
+            "logo2": "../teams/afreeca.png",
+            "tricode1": "PVB",
+            "tricode2": "AF"
+        }]
+    },
+    {
+        "date": "TEAM STAGE - Sunday, 30 December",
+        "matches": [{
+            "time": "10",
+            "team1": "Royal Never Give Up",
+            "logo1": "../teams/rng.png",
+            "team2": "Vitality",
+            "logo2": "../teams/vitality.png",
+            "tricode1": "RNG",
+            "tricode2": "VIT"
+        },
+        {
+            "time": "11",
+            "team1": "Gen.G Esports",
+            "logo1": "../teams/geng.png",
+            "team2": "Cloud9",
+            "logo2": "../teams/cloud9.png",
+            "tricode1": "GEN",
+            "tricode2": "C9"
+        },
+        {
+            "time": "12",
+            "team1": "Gen.G Esports",
+            "logo1": "../teams/geng.png",
+            "team2": "Vitality",
+            "logo2": "../teams/vitality.png",
+            "tricode1": "GEN",
+            "tricode2": "VIT"
+        },
+        {
+            "time": "13",
+            "team1": "Cloud9",
+            "logo1": "../teams/cloud9.png",
+            "team2": "Royal Never Give Up",
+            "logo2": "../teams/rng.png",
+            "tricode1": "C9",
+            "tricode2": "RNG"
+        }]
+    }
+]

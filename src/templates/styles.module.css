@@ -1,0 +1,61 @@
+.Post  {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Post > * {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Post > p {
+  padding: 0;
+  color: white;
+  padding: 0.5rem 0;
+  margin-bottom: 10px;
+}
+
+.Post > h1 {
+  font-size: 40px;
+  margin-top: 10px;
+  color: white;
+  font-family: Rockwell;
+  font-weight: bold;
+}
+
+.Post > h2 {
+  font-size: 35px;
+  color: white;
+  margin-bottom: 0;
+  font-family: Rockwell;
+}
+
+.title-image {  
+  height: calc(100% - 43px);
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .Post  {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 43px;
+  }
+  .Post > p, h1, h2{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.x {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  right: 20px;
+  top: 60px;
+  padding: 10px;
+}

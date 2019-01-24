@@ -1,0 +1,168 @@
+.team-list{
+    width: 100%;
+}
+.list-element {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-link {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 65%;
+    border-bottom: 1px solid var(--color-light-gray);
+    color: white;
+    font-family: Rockwell;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.team-link > img {
+    height: 65px;
+    width: 65px;
+}
+
+.team-name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 65px;
+}
+
+.team-img{
+    margin-left: 20px;
+}
+.league-img{
+    margin-right: 20px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    width: 75%;
+    border-bottom: 1px solid var(--color-light-gray);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-top: 11px;
+    transition: transform 0.5s ease;
+}
+
+
+.title-name{  
+    width: 110px;  
+    text-align: center
+}
+
+.right {
+    width: 110px;  
+    text-align: center;
+    margin-right: 5%;
+}
+
+.left {
+    width: 110px;  
+    text-align: center;
+    margin-left: 5%;
+}
+
+.top-div {
+    display: flex;
+}
+
+.search-div{
+    top: 43px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.5s ease;
+    display: flex;
+    justify-content: flex-end;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.search {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: var(--color-dark-gray);
+    font-size: 17px;
+    height: 50px;
+    transition: width 0.5s ease;
+    color: white;
+}
+
+.search-icon {
+    right: 4%;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    padding: 20px;
+    top: -20px;
+}
+.buffer{
+    max-width: 1100px;
+    transition: width 0.5s ease;
+}
+
+.title.open {
+    transform: translateX(-140%);
+}
+
+.title.closed {
+    transform: translateX(0%);
+}
+
+.search.open {
+    width: 80%;
+}
+.search.closed {
+    width: 0%;
+}
+.buffer.open {
+    width: 10%;
+}
+.buffer.closed {
+    width: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+    .top-div{
+        margin-top: 60px;
+    }
+    .team-link{
+        width: 100%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .search {
+        padding-left: 20px;
+    }
+
+    .search-div{
+        justify-content: space-between;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    .title.open {
+        transform: translateX(0%);
+    }
+    .search.closed {
+        width: 80%;
+    }
+    .buffer.open {
+        width: 0%;
+    }
+
+}

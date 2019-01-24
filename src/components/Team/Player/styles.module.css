@@ -1,0 +1,26 @@
+.player {
+    margin-left: 1%;
+    margin-right: 1%
+}
+
+.image {
+    border-radius: 100%;
+    background-color: var(--color-light-gray);
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.name {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+.role {
+    color: var(--color-light-blue);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: -10px;
+}

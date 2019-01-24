@@ -1,0 +1,30 @@
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 23px;
+    width: 100%;
+    text-align: center;
+}
+
+.team-name{
+    color: white;
+    font-size: 50px;
+    font-family: Rockwell;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    margin-right: 1%;
+}
+
+.players {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

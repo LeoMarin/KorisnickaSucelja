@@ -1,0 +1,70 @@
+:root {
+  --color-blue: #F1B94A;
+  --color-light-blue: #F1B94A;
+  --color-background: #1C1D20;
+  --color-light-gray: #a3a2a2;
+  --color-gold: #F1B94A;
+
+  --header-height: 43px;
+  --header-padding: 5px;
+
+  --z-index-menu: 1000;
+  --z-index-overlay: 999;
+}
+
+html {
+  box-sizing: border-box;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 17px;
+  line-height: 1.7;
+  height: 100%;
+}
+
+body {
+  overflow-y: auto;
+  position: relative;
+  background: var(--color-background);
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 450px) {
+  body.open {
+    overflow: hidden;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--color-blue, darkblue);
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Rockwell';
+  src: url('../fonts/rockwell.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Rockwell';
+  src: url('../fonts/rockwell-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}

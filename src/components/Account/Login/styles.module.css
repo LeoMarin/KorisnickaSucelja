@@ -1,0 +1,26 @@
+.login-form {
+    margin-top: 233px;
+    text-align: center;
+}
+
+.register-link {
+    color: white;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px black;
+    position: absolute;
+    top: 230px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.error.open{
+    visibility: visible;
+}
+.error.closed{
+    visibility: hidden;
+}
